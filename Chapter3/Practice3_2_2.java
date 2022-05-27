@@ -8,8 +8,9 @@ class Main {
 		// 入力
 		int N = sc.nextInt();
 		long[] A = new long[N + 1];
-		for (int i = 1; i <= N; i++) A[i] = sc.nextLong();
-		
+		for (int i = 1; i <= N; i++) {
+      A[i] = sc.nextLong();
+    }
 		// 答えを求める
 		long R = GCD(A[1], A[2]);
 		for (int i = 3; i <= N; i++) {

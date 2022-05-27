@@ -7,8 +7,9 @@ class Main {
     Scanner sc = new Scanner(System.in);
     int N = sc.nextInt();
     int[] A = new int[N + 1];
-    for (int i = 1; i <= N; i++) A[i] = sc.nextInt();
-
+    for (int i = 1; i <= N; i++) {
+      A[i] = sc.nextInt();
+    }
     long a = 0, b = 0, c = 0, d = 0;
     for (int i = 1; i <= N; i++) {
       if (A[i] == 100) a += 1;

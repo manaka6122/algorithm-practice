@@ -6,8 +6,9 @@ class Main {
     Scanner sc = new Scanner(System.in);
     int N = sc.nextInt();
     int[] A = new int[N + 1];
-    for (int i = 1; i <= N; i++) A[i] = sc.nextInt();
-    
+    for (int i = 1; i <= N; i++) {
+      A[i] = sc.nextInt();
+    }
     long[] cnt = new long[100009];
     for (int i = 1; i <= 99999; i++) cnt[i] = 0;
     for (int i = 1; i <= N; i++) cnt[A[i]] += 1;

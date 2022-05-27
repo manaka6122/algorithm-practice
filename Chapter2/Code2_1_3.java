@@ -13,4 +13,4 @@ class Code2_1_3 {
     }
     System.out.println(answer);
   }
-};
+}
